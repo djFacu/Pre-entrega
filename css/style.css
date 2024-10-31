@@ -1,0 +1,47 @@
+/* 
+   !important > estilos en linea > id > clase > etiquetas > *
+*/
+
+h1 {
+   font-size: 140%;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+#fondoRojo {
+   background-color: red;
+}
+
+span {
+   background-color: black;
+   color: white;
+}
+
+.textoOrange {
+   color: orange;
+}
+
+
+* {
+   color: red ;
+}
+
+p {
+   background-color: lightseagreen !important;
+   color: blue;
+   font-weight: 900;
+}  
+
+#fondoRojo .textoOrange p {
+   background-color: blueviolet;
+   color: yellow;
+}
+
+a {
+   text-decoration: none;
+}
+
+a:hover {
+   background-color: burlywood;
+   border-radius: 5px;
+}
